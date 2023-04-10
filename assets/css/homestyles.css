@@ -1,0 +1,88 @@
+body{
+    background-color:#BD5349;
+}
+.bigcontainer{
+    margin: 30px;
+}
+.logo-nav{
+    height: 50px;
+
+}
+.buscar {
+    border-color: #BD5349;
+   border-radius: 20px;
+
+} 
+.carrus {
+    height: 20%;
+    margin-top: 50px;
+   margin-left: 240px;
+}
+.borde-abajo {
+    border-bottom: 1px;
+    box-shadow: 0px 8px 6px -6px #02153E;
+}
+.linea-azul {
+    margin-top: 50px;
+    margin-left: 65px;
+    height: 3px;
+    width: 90%;
+    background-color: #02153E;
+    box-shadow: 8px #666;
+ 
+}
+.categorias{
+    margin-top: 40px;
+}
+.img-categorias{
+    height: 140px;
+}
+.container-categorias{
+    margin-top: 30px;
+}
+.container-Nproductos{
+    margin-top: 30px;
+}
+.texto-m {
+    width: 40%;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.iconos-m {
+    width: 42%;
+margin-top: -145px;
+    margin-left: 50%;
+}
+.cuadro-marcas
+{
+height:70px ;
+width: 120px;
+border-radius: 12px;
+
+}
+.img-marcas{
+    height: 40px;
+    
+}
+.linea-a{
+    margin-top: 5px;
+    margin-left: 3px;
+    height: 30px;
+    width: 3px;
+    background-color: #02153E;
+    box-shadow: 8px #666;
+  } 
+  .logo-nav{
+      height: 50px;}
+  
+  .borde-abajo {
+          border-bottom: 1px;
+          box-shadow: 0px 8px 6px -6px #02153E;
+      }
+  
+      .buscar {
+          border-color: #BD5349;
+         border-radius: 20px;
+         margin-top: 15px;
+      
+      }

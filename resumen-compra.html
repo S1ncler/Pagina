@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resumen-compra</title>
+    <link rel="shortcut icon" href="assets/images/Asset1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-resumen-compras.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  </head>
+
+  <body class="body ps-3 pe-3 pb-3">
+
+      <div class="container-prin container-fluid p-0">
+      <div class="header ">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top borde-abajo">
+          <div class="container-fluid">
+           
+            <a href="home.html"><img class="logo-nav" src="assets/images/logo-horizontal.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="tienda.html">Componentes PC</a>
+                </li>
+                <div class="linea-a"></div>
+                <li class="nav-item">
+                  <a class="nav-link active" href="desarrollo.html">Desarrollo Web</a>
+                  
+                </li>
+                <div class="linea-a"></div>
+               
+              </ul>
+              <form class=" d-flex " role="search">
+              <div class=" input-group mb-3 ">
+          <input type="text" class="buscar form-control " placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class=" buscar input-group-text material-symbols-outlined" id="basic-addon2"> search </span>
+        </div>
+              </form>
+        
+              <div>
+                <a href="tus-compras.html"><button class="border border-0 bg-light"type=""><img class="logo-nav"src="assets/images/logo-compras.png" alt=""></button></a>
+              </div>
+              <div>
+                <a href="registro.html"><button class="border border-0 bg-light"type=""><img class="logo-nav"src="assets/images/login.png" alt=""></button></a>
+              </div>
+        
+            </div>
+          </div>
+        </nav>
+   </div>
+   
+<div class="d-flex mt-5 pt-3 flex-wrap justify-content-center">
+        <div>
+          <div class="card my-4 shadow-lg p-3 mb-5 m-5" style="width: 48vw">
+            <div class="card-body">
+              <h5 class="card-title">Dirección de envío</h5>
+              <hr class="border border-dark border-2 opacity-100" style="width: 11vw"/>
+              <h6 class="card-subtitle">Añadír dirección</h6>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Calle 124 # 89-98
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Calle 85 # 90-69
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-lg m-5 " style="width: 48vw">
+            <div class="card-body">
+              <h5 class="card-title">Medio de pago</h5>
+              <hr class="border border-dark border-3 opacity-100" style="width: 11vw" />
+              <h6 class="card-subtitle">+ Añadír metodo de pago</h6>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault1"
+                  id="flexRadioDefault3"
+                />
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Tarjeta de crédito *5889
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault1"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault4">
+                  PSE
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault1"
+                  id="flexRadioDefault4"
+                  checked/>
+                <label class="form-check-label" for="flexRadioDefault4">
+                  Paypall
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+        <article>
+          <div class="d-flex flex-column gap-4 fs-3 m-4">
+            <div class="text-black border-bottom border-3 border-dark fw-semibold">
+              Resumen de compra
+            </div>
+
+            <span class="col">2 Productos en el carro de compras</span>
+            <div class="row">
+              <div class="col">
+                  Subtotal
+              </div>
+                <div class="col">$12.000.659 COP            
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                    IVA 19%
+                </div>
+                  <div class="col">$220.000 COP            
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col mt-3">
+                      Total
+                  </div>
+                    <div class="col mt-3"><b>$12.220.659 COP</b>            
+                    </div>
+                  </div>
+            <a href="home.html" class="col btn btn1 btn-danger boton1 mt-4 fs-2 mx-4">Finalizar compra</a>           
+          </div>
+        </article>
+      </div>
+      </div>
+
+
+      <div class="container text-start d-flex justify-content-center align-">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex  flex-column  align-items-center">
+            <img src="assets/images/CPU 02.png" alt="" style="width: 18vw;">
+        <div class="m-4"><b>
+          <h4 accordion-body="mx-4 p-2 ">Combo gamer RGB</h4>
+          <h5>$6’000.000COP</h5>
+          <h5>Cantidad: 2</h5></b>
+        </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <article style="background-color: #f1eeee;" class="d-flex gap-5 flex-wrap justify-content-evenly mt-5">
+              <div class="img-1"></div>
+              <div class="img-2"></div>
+              <div class="img-3"></div>
+              <div class="img-4"></div>
+              <div class="img-5"></div>
+              <div class="img-6"></div>
+              <div class="img-7"></div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/message/Z7KUL4SEQXHTD1" class="btn position-fixed bottom-0 end-0 mb-4 me-4"
+      ><img src="assets/images/Whatsapp.png" alt="" width="80px" height="80px"/>
+    </a>
+    
+    <hr class="border border-dark border-2 opacity-100" />
+    
+    <footer style="width: 100%" class="footer-final d-flex flex-column">
+        <div class="d-flex gap-5 no-gap wrap-666 justify-content-between">
+          <div class="contacto">
+            <h5 class="cont">Contacto</h5>
+            <p class="m-0">Teléfono: +57 322 398 91 26</p>
+            <p>Dirección: Calle 127c # 03-60 LC 4</p>
+            <div class="linea-azul-pequeña shadow"></div>
+
+            <p class="redes-1">Síguenos en nuestras redes</p>
+            <a href="https://www.instagram.com/tecno.importaciones.v"><img class="redes" src="assets/images/instagram.png" alt="" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100077833951672"><img class="redes" src="assets/images/facebook.png" alt="" /></a>
+          </div>
+
+
+          <div
+            class="hide d-flex flex-column justify-content-center align-items-start ms-4"
+          >
+            <a href="nosotros.html" class="text-decoration-none text-black"><h5>Sobre nosotros</h5></a>
+            <a href="https://wa.me/message/Z7KUL4SEQXHTD1" class="text-decoration-none text-black"><h5>Atención al cliente</h5></a>
+          </div>
+
+          <div
+            class="hide d-flex flex-column justify-content-center align-items-start"
+          >
+            <a href="tus-compras.html" class="text-decoration-none text-black"><h5>Métodos de pago</h5></a>
+            <a href="https://wa.me/message/Z7KUL4SEQXHTD1" class="text-decoration-none text-black"><h5>Preguntas frecuentes</h5></a>
+          </div>
+
+          <div
+            class=" m-a d-flex justify-content-around align-items-center gap-5"
+          >
+            <img class="codico-qr shadow-lg" src="assets/images/codigo.jpg" alt="" />
+            <div
+              class="logo-footer d-flex justify-content-center align-items-center me-3"
+            >
+              <img
+                class="img-2l logo-footer-img shadow-lg "
+                src="assets/images/logo-vertical.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+      
+    </div>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
