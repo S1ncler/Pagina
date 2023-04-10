@@ -12,7 +12,8 @@
     />
 
     <!-- Mis estilos -->
-    <link rel="stylesheet" href="assets/css/styleLogin.css" />
+    <link rel="stylesheet" href="assets/css/styleLogin.css" />    
+    <link rel="stylesheet" type="text/css" href="assets/homestyles.css">
     <!-- Estilos Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <!--Iconos-->
@@ -25,63 +26,47 @@
     <!-- Contenedor global -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top borde-abajo">
       <div class="container-fluid">
-        <img class="logo-nav" src="assets/images/logo-horizontal.png" alt="" />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+       
+        <a href="home.html">
+          <img class="logo-nav" src="assets/images/logo-horizontal.png">
+        </a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Componentes PC</a
-              >
+              <a class="nav-link active" aria-current="page" href="tienda.html">Componentes PC</a>
             </li>
             <div class="linea-a"></div>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Desarrollo Web</a>
+              <a class="nav-link active" href="desarrollo.html">Desarrollo Web</a>
+              
             </li>
             <div class="linea-a"></div>
+           
           </ul>
-          <form class="d-flex" role="search">
-            <div class="input-group mb-3">
-              <input
-                type="text"
-                class="buscar form-control"
-                placeholder="Buscar"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
-              />
-              <span
-                class="buscar input-group-text material-symbols-outlined"
-                id="basic-addon2"
-              >
-                search
-              </span>
-            </div>
+          <form class=" d-flex " role="search">
+          <div class=" input-group mb-3 ">
+      <input type="text" class="buscar form-control " placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <span class=" buscar input-group-text material-symbols-outlined" id="basic-addon2"> search </span>
+    </div>
           </form>
+    
+          <div>
+              <a href="tus-compras.html">
+                  <button class="border border-0 bg-light"type=""><img class="logo-nav"src="assets/images/logo-compras.png"></button>
+              </a>
+            
+          </div>
+          <div>
+              <a href="registro.html">
+                  <button class="border border-0 bg-light"type=""><img class="logo-nav"src="assets/images/login.png"></button>
 
-          <div>
-            <button class="border border-0 bg-light" type="">
-              <img
-                class="logo-nav"
-                src="assets/images/logo-compras.png"
-                alt=""
-              />
-            </button>
+              </a>
           </div>
-          <div>
-            <button class="border border-0 bg-light" type="">
-              <img class="logo-nav" src="assets/images/login.png" alt="" />
-            </button>
-          </div>
+    
         </div>
       </div>
     </nav>
